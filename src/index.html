@@ -13,6 +13,30 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+  <header>
+    <h1 class="title">Leaderboard</h1>
+</header>
+<main class="board">
+    <div class="score-container">
+        <div class="score-title">
+            <h2>Recent scores</h2>
+            <button class="refresh">Refresh</button>
+        </div>
+        <div class="score">
+            <ul></ul>
+        </div>
+    </div>
+
+    <div class="addscore-container">
+        <h2>Add your score</h2>
+        <input type="text" name="name" class="info" placeholder="Your name">
+        <br class="break">
+        <input type="text" name="score" class="info" placeholder="Your score">
+        <div class="submit-button">
+            <button class=" submit">Submit</button>
+        </div>
+    </div>
+</main>
     
       <script src="index.js"></script>
     
