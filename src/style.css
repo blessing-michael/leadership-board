@@ -1,71 +1,62 @@
 
-*{
+* {
   margin: 0;
 }
 
-body{
-  
-}
-.title{
+.title {
   margin-left: 4rem;
   margin-top: 2rem;
 }
-.board{
-  
+
+.board {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
 
-}
-.score-container{
+.score-container {
   margin: 0 5rem;
- 
 }
-.score-title{
+
+.score-title {
   display: flex;
   margin-bottom: 2rem;
-
-
 }
-.score{
+
+.score {
   width: 300px;
   height: 200px;
   border: 2px solid black;
-  
 }
-.addscore-container{
+
+.addscore-container {
   width: 300px;
   height: 250px;
-
 }
-.addscore-container h2{
-  margin-bottom: 2rem;
 
-}
-.info{
+.addscore-container h2 {
   margin-bottom: 2rem;
 }
-.refresh{
-  
+
+.refresh {
   margin-left: 1rem;
   box-shadow: 2px 2px 0 0 black;
   padding-left: 4%;
   padding-right: 4%;
   border: 2px solid black;
 }
+
 .info {
   margin: 15px;
   border: 2px solid black;
 }
-.submit{
 
+.submit {
   box-shadow: 2px 2px 0 0 black;
   border: 2px solid black;
-  
 }
-.submit-button{
+
+.submit-button {
   margin-left: 9rem;
-  
-  
 }
